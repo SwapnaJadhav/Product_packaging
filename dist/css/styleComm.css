@@ -49,6 +49,9 @@ p.Nfont{
     .crousalpart{
     margin-top: 16%;
   }
+  .btn-primary{
+    margin-left: 30% !important;
+  }
 }
 /* @media (max-width: 768px){
     .crousalpart{
