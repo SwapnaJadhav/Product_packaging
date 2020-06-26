@@ -1,0 +1,62 @@
+.html,body{
+    font-family:palatino;
+    width: 100%;
+    height: 100%;
+    background-color:#fff ;
+
+}
+.navbar{
+background-color:darksalmon;
+}
+.navbar.navbar-light .navbar-nav .nav-link{
+color: gold;
+font-weight: bold;
+}
+.navbar.navbar-light .navbar-nav .nav-link:hover{
+    color:#fff;
+}
+a.nav-link.currenttpage{
+    color: #fff !important;
+}
+h3.Nhead1:hover{
+    color: goldenrod;
+    }
+p.Nfont{
+ font-size: 19px;
+ font-family: palatino;
+}
+#sticky-footer {
+    flex-shrink: none;
+    background-color: #e9967a;
+    color: gold !important;
+    font-family: palatino;
+    font-weight: 500;
+  }
+  /* animation common */
+  .animate__zoomIn{
+    animation-duration: 3s;
+    color: darksalmon;
+  }
+  
+  /* medaquery */
+  @media (min-width: 768px) and (max-width: 1370px){ 
+    .crousalpart{
+    margin-top: 4%;
+    
+    }
+}
+@media (max-width: 767px){
+    .crousalpart{
+    margin-top: 16%;
+  }
+}
+/* @media (max-width: 768px){
+    .crousalpart{
+    margin-top: 7%;
+  }
+} */
+@media (min-width: 1370px){
+    .crousalpart{
+    margin-top: 8%;
+    }
+}

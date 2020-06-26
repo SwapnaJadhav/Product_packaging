@@ -1,0 +1,18 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  #map {
+    height: 500px;
+    width: 100%;
+  }
+  .mappart{
+    background-color: #eeeeee;
+  }
+  p.Nfont{
+    text-align: center;
+  }
+  /* .fa{
+    color: gold;
+  } */

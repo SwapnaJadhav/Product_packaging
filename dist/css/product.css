@@ -1,0 +1,57 @@
+.jumbotron {
+
+  background-color: bisque;
+}
+.btn-primary {
+    color: gold;
+    background-color: darksalmon;
+    border-color: gold;
+    box-shadow: none !important;
+}
+ .btn-primary:focus,.btn-primary:hover {
+  color: gold;
+  background-color: darksalmon !important;
+  border-color: gold !important;
+  box-shadow:gold !important;
+}
+
+.fa-check:before {
+  content: "\f00c";
+  color: darksalmon;
+}
+li.listfont{
+  font-size: 18px;
+}
+h4.Nhead{
+  color: darksalmon;
+  font-weight: bold;
+  font-family: palatino;
+}
+.borderimg {
+  border: solid 3px;
+  color: darksalmon;
+  /* transition: transform .2s; */
+  /* z-index: -1; */
+
+}
+.borderimg:hover {
+  border: solid 2px;
+  color: gold;
+  /*-ms-transform: scale(1.5); */        /* IE 9 */
+  /*-webkit-transform: scale(1.5);*/        /* Safari 3-8 */
+  /* transform: scale(1.5);  */
+  /* z-index: -1; */
+}
+.animate__backInLeft{
+  animation-duration: 3s;
+}
+.animate__backInRight{
+  animation-duration: 3s;
+}
+.btn-link {
+  font-weight: bold;
+  color: darksalmon;
+  text-decoration: none;
+}
+
+

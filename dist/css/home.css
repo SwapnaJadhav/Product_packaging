@@ -1,0 +1,52 @@
+hr.separate{
+    color: gold !important;
+    width: 6%;
+}
+/* p.Nfont{
+    font-size: 18px;
+    font-family: palatino;
+} */
+/* .animate__zoomIn{
+    animation-duration: 3s;
+    color: darksalmon;
+    
+} */
+
+.homeimag.animate__zoomInDown{
+    animation-duration: 3s;
+    /* --animation-repeat: 2; */
+}
+
+.btn-primary{
+    background-color: gold !important;
+    border-color: goldenrod !important;
+    margin-left: 43%;
+    border-radius: 10px;
+}
+.form-control{
+    border-radius: 10px;
+}
+.custom-select{
+    border-radius: 10px;
+}
+/* .bgcolorcontr{
+} */
+.typespp{
+    visibility: hidden;
+    /* overflow: hidden; */
+    
+}
+
+.boxx{
+    font-size: 18px;
+}
+.boxx:hover + .hide{
+/* visibility: visible; */
+display: block;
+font-size: 18px;
+color: gold;
+}
+.hide{
+    display: none;
+  
+}
